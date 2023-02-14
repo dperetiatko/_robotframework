@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.2 (Python 3.10.9 on win32)" generated="20230214 16:02:21.320" rpa="false" schemaversion="3">
+<suite id="s1" name="pythonProject" source="C:\Users\dperetia\PycharmProjects\pythonProject">
+<suite id="s1-s1" name="Venv" source="C:\Users\dperetia\PycharmProjects\pythonProject\venv">
+<suite id="s1-s1-s1" name="Test Login Rf" source="C:\Users\dperetia\PycharmProjects\pythonProject\venv\test_login_rf.robot">
+<test id="s1-s1-s1-t1" name="Log in to the system" line="14">
+<kw name="Open login page">
+<kw name="Open Browser">
+<arg>${LOGIN URL}</arg>
+<arg>${BROWSER}</arg>
+<msg timestamp="20230214 16:02:21.351" level="FAIL">No keyword with name 'Open Browser' found.</msg>
+<status status="FAIL" starttime="20230214 16:02:21.351" endtime="20230214 16:02:21.351"/>
+</kw>
+<kw name="Title Should Be Scouts panel - sign in">
+<status status="NOT RUN" starttime="20230214 16:02:21.352" endtime="20230214 16:02:21.352"/>
+</kw>
+<status status="FAIL" starttime="20230214 16:02:21.350" endtime="20230214 16:02:21.352"/>
+</kw>
+<kw name="Type in email">
+<status status="NOT RUN" starttime="20230214 16:02:21.353" endtime="20230214 16:02:21.353"/>
+</kw>
+<kw name="Type in password">
+<status status="NOT RUN" starttime="20230214 16:02:21.353" endtime="20230214 16:02:21.353"/>
+</kw>
+<kw name="Click on the Submit button">
+<status status="NOT RUN" starttime="20230214 16:02:21.354" endtime="20230214 16:02:21.354"/>
+</kw>
+<kw name="Assert dashboard">
+<status status="NOT RUN" starttime="20230214 16:02:21.354" endtime="20230214 16:02:21.354"/>
+</kw>
+<kw name="Close Browser" type="TEARDOWN">
+<msg timestamp="20230214 16:02:21.356" level="FAIL">No keyword with name 'Close Browser' found.</msg>
+<status status="FAIL" starttime="20230214 16:02:21.356" endtime="20230214 16:02:21.356">No keyword with name 'Close Browser' found.</status>
+</kw>
+<status status="FAIL" starttime="20230214 16:02:21.350" endtime="20230214 16:02:21.356">No keyword with name 'Open Browser' found.
+
+Also teardown failed:
+No keyword with name 'Close Browser' found.</status>
+</test>
+<doc>Suite description #automated tests for scout website</doc>
+<status status="FAIL" starttime="20230214 16:02:21.345" endtime="20230214 16:02:21.358"/>
+</suite>
+<status status="FAIL" starttime="20230214 16:02:21.343" endtime="20230214 16:02:21.359"/>
+</suite>
+<status status="FAIL" starttime="20230214 16:02:21.322" endtime="20230214 16:02:21.360"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="pythonProject">pythonProject</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1" name="Venv">pythonProject.Venv</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1-s1" name="Test Login Rf">pythonProject.Venv.Test Login Rf</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20230214 16:02:21.348" level="ERROR">Error in file 'C:\Users\dperetia\PycharmProjects\pythonProject\venv\test_login_rf.robot' on line 2: Importing library 'SeleniumLibrary' failed: ModuleNotFoundError: No module named 'SeleniumLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Users\dperetia\PycharmProjects\pythonProject
+  C:\Users\dperetia\PycharmProjects\pythonProject
+  C:\Users\dperetia\AppData\Local\Programs\Python\Python310\python310.zip
+  C:\Users\dperetia\AppData\Local\Programs\Python\Python310\DLLs
+  C:\Users\dperetia\AppData\Local\Programs\Python\Python310\lib
+  C:\Users\dperetia\AppData\Local\Programs\Python\Python310
+  C:\Users\dperetia\PycharmProjects\pythonProject\venv
+  C:\Users\dperetia\PycharmProjects\pythonProject\venv\lib\site-packages</msg>
+</errors>
+</robot>
